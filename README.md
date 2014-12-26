@@ -20,3 +20,24 @@ java中没有unsigned类型
 ## 数值类型转换
 
 虚线表示转换时有精度丢失
+
+## 多重选择--switch
+```c
+switch (select) {
+case value1:
+case value2:
+    statement;
+    break;
+case value3:
+    statement;
+    break;
+case value4:
+    statement;
+    break;
+default:
+    statement;
+}
+```
+case标签必须是整数(int、char)或者枚举常量
+case语句后面如果没有break，会执行后面的case分支
+
