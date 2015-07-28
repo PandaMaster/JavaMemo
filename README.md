@@ -43,5 +43,11 @@ case语句后面如果没有break，会执行后面的case分支
 
 ## 数组
 数组声明`int[] a;`  
-数组初始化 
-静态初始化`String[] a = new String[] {"One", "Two, "Three"};``String[] a = {"One", "Two, "Three"};`
+静态初始化  
+`String[] a = new String[] {"One", "Two, "Three"};` `String[] a = {"One", "Two, "Three"};`  
+动态初始化  
+```c
+int[] bookNum = new int[5];
+bookNum[0] = 50;
+... ...
+```
